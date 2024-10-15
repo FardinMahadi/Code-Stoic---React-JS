@@ -1,3 +1,4 @@
+import Fruit from "./components/Fruit";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <Hello person={person} />
-      <Fruits />
+      {/* <Hello person={person} />
+      <Fruits /> */}
+      <Fruit />
     </div>
   );
 }
